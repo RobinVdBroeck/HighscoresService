@@ -1,0 +1,14 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+  datasource:
+    url: jdbc://localhost:3306/highscores
+    username: root
+    password: ""
+    driver-class-name: org.mariadb.jdbc.Driver
+  application:
+    name: highscores
+
+server:
+  port: 8080
